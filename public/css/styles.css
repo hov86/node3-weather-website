@@ -1,0 +1,72 @@
+body {
+	color: #333333;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 0 16px;
+	display: flex;
+	flex-flow: column nowrap;
+	min-height: 100vh;
+}
+
+header {
+	margin-top: 16px;
+	margin-bottom: 48px;
+}
+
+h1 {
+	font-size: 64px;
+	margin-bottom: 16px;
+}
+
+header a {
+	color: #888888;
+	margin-right: 16px;
+	list-style: none;
+	text-decoration: none;
+}
+
+header a:hover {
+	color: orangered;
+}
+
+.portrait {
+	width: 250px;
+}
+
+.main-content {
+	flex: 1 0;
+}
+
+input {
+	border: 1px solid #cccccc;
+	padding: 0.75em 1.75em;
+	border-radius: 5px;
+	font-size: 14px;
+	transition: all 0.4s ease-in-out;
+}
+
+input:focus {
+	border: 1px solid orangered;
+}
+
+button {
+	cursor: pointer;
+	border: 1px solid orangered;
+	background: orangered;
+	color: white;
+	padding: 0.75em 2.75em;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.response {
+	padding-top: 4em;
+}
+
+footer {
+	color: #888888;
+	border-top: 1px solid #eeeeee;
+	margin-top: 16px;
+	padding: 16px;
+}
