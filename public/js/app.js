@@ -24,7 +24,7 @@ weatherForm.addEventListener('submit', (e) => {
 
 weatherForm.addEventListener('change', (e) => {
     e.preventDefault()
-    searchInput.textContent = ''
+    searchInput.innerText = ''
     messageOne.textContent = ''
     messageTwo.textContent = ''
 })
